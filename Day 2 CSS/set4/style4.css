@@ -1,0 +1,57 @@
+/* * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: poppins;
+}
+
+nav {
+    background-color: cadetblue;
+}
+
+.navBar {
+    display: flex;
+    gap: 150px;
+    justify-content: end;
+    align-items: center;
+    padding: 1rem;
+}
+
+.box {
+    font-weight: 100;
+    color: white;
+}
+
+input {
+    padding: 7px;
+    border-radius: 10px;
+    margin-right: 15px;
+} */
+
+.parent {
+    background-color: cyan;
+    display: flex;
+
+}
+
+.child{
+    border: 2px solid red;
+    padding: 10px;
+    background-color: yellow;
+
+}
+
+.p1 {
+    justify-content: space-between;
+}
+.p2 {
+    justify-content: space-evenly;
+}
+.p3 {
+    justify-content: space-around;
+}
+.p4 {
+    justify-content: flex-end;
+}

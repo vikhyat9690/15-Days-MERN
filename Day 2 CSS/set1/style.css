@@ -1,0 +1,39 @@
+* {
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   background-color: cadetblue;
+}
+
+.divBig {
+    width: fit-content;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    background-color: cornsilk;
+    padding: 20px;
+    border: 2px solid black;
+    margin:15% 33%;
+}
+
+.box {
+    background-color: cyan;
+    font-weight: bold;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.heading2{
+    color: #ffff;
+    background-color: blue;
+}
+
+.heading1 {
+    color: red;
+    background-color: yellow;
+}
+

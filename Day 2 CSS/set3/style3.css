@@ -1,0 +1,35 @@
+* {
+    margin: 10px;
+    padding: 0;
+}
+
+.list {
+    padding: 10px;
+    margin: 10px;
+}
+
+.list1 {
+    background-color: cadetblue;
+    color: white;
+}
+
+.list2 {
+    background-color: green;
+    color: white;
+}
+
+.list3 {
+    background-color: darkblue;
+    color: white;
+}
+
+.list4 {
+    background-color: brown;
+    color: white;
+}
+
+.parent {
+    background-color: burlywood;
+    padding: 10px;
+}
+
