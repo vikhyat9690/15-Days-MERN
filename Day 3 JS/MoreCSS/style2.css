@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.parent {
+    border: 2px solid black;
+    margin: 0 auto ;
+    height: fit-content;
+    width: 30vw;
+    text-align: center;
+}
+
+h1 {
+    background-color: cadetblue;
+    text-align: center;
+    color: white;
+}
+
+@media (800px <= width <= 1200px) {
+    h1 {
+        background-color: blue;
+    }
+}
+
+p {
+    background-color: black;
+    color: white;
+}
+
+.parent {
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out;
+    transition-property: height width;
+}
