@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        img {
+            height: 300px;
+            width: 300px;
+        }
+        div {
+            display: grid;
+            grid-template-columns: repeat(3, 350px);
+        }
+
+        .news-card{
+            background-color: cadetblue;
+            max-width: 400px;
+            padding: 10px;
+            margin: 40px auto;
+            display: block;
+            align-items: center;
+        }
+
+        p {
+            padding: 50px;
+            margin: 10px;
+        }
+
+        footer {
+            padding: 100px;
+            background-color: beige;
+        }
+    </style>
+</head>
+<body>
+    <h1>Async JS</h1>
+    <button id="btn">
+        Static Event Handler
+    </button>
+    <header>
+        <main>
+            <div id="root">
+            </div>
+        </main>
+    </header>
+    <footer></footer>
+    <script src="script.js"></script>
+</body>
+</html>
